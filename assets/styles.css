@@ -1,0 +1,40 @@
+.center-block {
+    width: 50%; /* or any desired width */
+    margin: 0 auto;
+    text-align: center;
+  }
+  .flexcard {
+    display: flex;
+    justify-content: center; /* Centers cards horizontally */
+    gap: 10px; /* Adds spacing between cards */
+    margin-bottom: 15px; /* Space between rows */
+}
+
+.eachcard {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom left, #00ffff 0%, #66ff33 100%);
+}
+
+.eachcard:hover {
+  
+  cursor: pointer; /* Shows pointer cursor */
+  background: linear-gradient(to bottom left, #cc99ff 0%, #ffffff 100%);
+}
+.card-body {
+    text-align: center;
+}
+
+#winner{
+    color:green;
+    font-family: sans-serif;
+
+}
